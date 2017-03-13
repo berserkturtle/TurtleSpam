@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\..\..\Engine\Source\Programs\UnrealCodeAnalyzer\UnrealCodeAnalyzer.Target.cs" />
+		<None Include="..\..\..\..\Engine\Source\Programs\UnrealCodeAnalyzer\UnrealCodeAnalyzer.Build.cs" />
+		<Filter Include="Private">
+			<UniqueIdentifier>{2D4EF94D-47CD-4F1D-B44D-85A76D790AAA}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\Engine\Source\Programs\UnrealCodeAnalyzer\Private\Action.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\Engine\Source\Programs\UnrealCodeAnalyzer\Private\Action.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\..\Engine\Source\Programs\UnrealCodeAnalyzer\Private\Consumer.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\Engine\Source\Programs\UnrealCodeAnalyzer\Private\Consumer.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\..\Engine\Source\Programs\UnrealCodeAnalyzer\Private\MacroCallback.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\Engine\Source\Programs\UnrealCodeAnalyzer\Private\MacroCallback.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\..\Engine\Source\Programs\UnrealCodeAnalyzer\Private\main.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\..\..\Engine\Source\Programs\UnrealCodeAnalyzer\Private\Visitor.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\Engine\Source\Programs\UnrealCodeAnalyzer\Private\Visitor.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<Filter Include="Private\ThreadSafety">
+			<UniqueIdentifier>{CAF53AFF-1A5E-4F75-83F1-87CF989B7292}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\Engine\Source\Programs\UnrealCodeAnalyzer\Private\ThreadSafety\TSAction.cpp">
+			<Filter>Private\ThreadSafety</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\Engine\Source\Programs\UnrealCodeAnalyzer\Private\ThreadSafety\TSAction.h">
+			<Filter>Private\ThreadSafety</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\..\Engine\Source\Programs\UnrealCodeAnalyzer\Private\ThreadSafety\TSConsumer.cpp">
+			<Filter>Private\ThreadSafety</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\Engine\Source\Programs\UnrealCodeAnalyzer\Private\ThreadSafety\TSConsumer.h">
+			<Filter>Private\ThreadSafety</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\..\Engine\Source\Programs\UnrealCodeAnalyzer\Private\ThreadSafety\TSVisitor.cpp">
+			<Filter>Private\ThreadSafety</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\Engine\Source\Programs\UnrealCodeAnalyzer\Private\ThreadSafety\TSVisitor.h">
+			<Filter>Private\ThreadSafety</Filter>
+		</ClInclude >
+		<Filter Include="Public">
+			<UniqueIdentifier>{4652E1F2-BD77-49D8-8346-B5CDC63DC9F8}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\Engine\Source\Programs\UnrealCodeAnalyzer\Public\UnrealCodeAnalyzerPCH.cpp">
+			<Filter>Public</Filter>
+		</ClCompile >
+	</ItemGroup>
+</Project>

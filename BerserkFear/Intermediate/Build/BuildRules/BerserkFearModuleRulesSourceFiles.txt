@@ -1,0 +1,3 @@
+C:\UnrealEngine-release\UnrealEngine-4.15.0-release\repo\BerserkFear\Source\BerserkFear\BerserkFear.Build.cs
+C:\UnrealEngine-release\UnrealEngine-4.15.0-release\repo\BerserkFear\Source\BerserkFear.Target.cs
+C:\UnrealEngine-release\UnrealEngine-4.15.0-release\repo\BerserkFear\Source\BerserkFearEditor.Target.cs

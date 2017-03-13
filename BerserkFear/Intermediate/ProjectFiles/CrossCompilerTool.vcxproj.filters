@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\..\..\Engine\Source\Programs\CrossCompilerTool\CrossCompilerTool.Target.cs" />
+		<None Include="..\..\..\..\Engine\Source\Programs\CrossCompilerTool\CrossCompilerTool.Build.cs" />
+		<Filter Include="Private">
+			<UniqueIdentifier>{23BEFECF-796D-4BD2-8764-45A6B3090358}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\..\..\Engine\Source\Programs\CrossCompilerTool\Private\CrossCompilerTool.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\..\..\Engine\Source\Programs\CrossCompilerTool\Private\CrossCompilerTool.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\..\..\Engine\Source\Programs\CrossCompilerTool\Private\CrossCompilerUtils.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+	</ItemGroup>
+</Project>

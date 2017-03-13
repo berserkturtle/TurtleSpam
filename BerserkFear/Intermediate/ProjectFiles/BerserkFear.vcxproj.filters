@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\BerserkFear.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{56430CB0-9AB7-491B-B947-722FA29A480B}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\BerserkFear.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\BerserkFearEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{36C7BC60-16FB-4F2C-A629-E681F28CB4EA}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\BerserkFear">
+			<UniqueIdentifier>{4ED14F70-C175-44F4-A312-0362EFF91A84}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\BerserkFear\BerserkFear.Build.cs">
+			<Filter>Source\BerserkFear</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\BerserkFear\BerserkFear.cpp">
+			<Filter>Source\BerserkFear</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BerserkFear\BerserkFear.h">
+			<Filter>Source\BerserkFear</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\BerserkFear\BerserkFearCharacter.cpp">
+			<Filter>Source\BerserkFear</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BerserkFear\BerserkFearCharacter.h">
+			<Filter>Source\BerserkFear</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\BerserkFear\BerserkFearGameMode.cpp">
+			<Filter>Source\BerserkFear</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\BerserkFear\BerserkFearGameMode.h">
+			<Filter>Source\BerserkFear</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{3E41E710-4EA5-5E15-613C-D29707EA1B8A}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "BerserkFear",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
